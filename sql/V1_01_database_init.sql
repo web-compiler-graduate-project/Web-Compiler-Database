@@ -3,7 +3,7 @@ CREATE TABLE app_user (
     name VARCHAR(255) UNIQUE,
     email VARCHAR(255) UNIQUE,
     role VARCHAR(50),
-    password VARCHAR(255)
+    password_part1 VARCHAR(255)
 );
 
 CREATE TABLE task (
