@@ -3,6 +3,7 @@ CREATE TABLE app_user (
     name VARCHAR(255) UNIQUE,
     email VARCHAR(255) UNIQUE,
     role VARCHAR(50),
+    is_enabled BOOLEAN DEFAULT TRUE,
     password_part1 VARCHAR(255)
 );
 
