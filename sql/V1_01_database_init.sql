@@ -10,7 +10,8 @@ CREATE TABLE app_user (
 CREATE TABLE task (
     id SERIAL PRIMARY KEY,
     title VARCHAR(255),
-    description TEXT
+    description TEXT,
+    is_enabled BOOLEAN DEFAULT TRUE
 );
 
 CREATE TABLE task_solution (
